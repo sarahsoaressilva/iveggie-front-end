@@ -26,6 +26,7 @@ h1 {
 .input__default {
     width: 400px;
     border: 1px solid var(--brown-default);
+    background-color: var(--white-default);
     color: var(--brown-default);
     border-radius: 10px;
     padding: 10px;

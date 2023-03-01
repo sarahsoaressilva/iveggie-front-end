@@ -9,7 +9,7 @@
     flex-wrap: wrap;
     align-items: center;
 
-    border: 1px solid var(--green-default);
+    border: 1px solid var(--grey-default);
     padding: 10px;
     gap: 20px;
 }
@@ -28,3 +28,35 @@
     height: 100%;
     gap: 20px;
 }
+
+/* Megamenu */
+
+.megamenu {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+
+    border: 1px solid var(--grey-default);
+}
+
+.menu__nav {
+    display: inline-flex;
+    gap: 2rem;
+    align-items: center;
+    margin: 0 1.5rem;
+    flex-wrap: wrap;
+}
+
+.menu__nav__item {
+    padding: 15px;
+}
+
+.menu__nav__link__text {
+    color: var(--brown-default);
+}
+
+.menu__nav__link__text:hover {
+    color: var(--green-default);
+}
+
