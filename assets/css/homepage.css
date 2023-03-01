@@ -1,0 +1,30 @@
+@import 'styles.css'; 
+
+
+/* MENU BAR */
+
+.menu {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    align-items: center;
+
+    border: 1px solid var(--green-default);
+    padding: 10px;
+    gap: 20px;
+}
+
+.menu__logo__img {
+    width: 200px;
+    margin-left: 30px;
+}
+
+.menu__container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    width: 100%;
+    height: 100%;
+    gap: 20px;
+}
