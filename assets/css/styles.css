@@ -18,8 +18,21 @@
 }
 
 h1 {
-    font-size: 20px;
+    font-size: 40px;
     font-weight: 700;
+    color: var(--green-default);
+}
+
+h2 {
+    font-size: 40px;
+    font-weight: 600;
+    color: var(--green-default);
+}
+
+h3 {
+    font-size: 30px;
+    font-weight: 600;
+    color: var(--green-default);
 }
 
 
@@ -28,7 +41,7 @@ h1 {
     border: 1px solid var(--brown-default);
     background-color: var(--white-default);
     color: var(--brown-default);
-    border-radius: 10px;
+    border-radius: 5px;
     padding: 10px;
 }
 
@@ -57,4 +70,32 @@ h1 {
     width: 30px;
     height: 30px;
     color: var(--brown-default);
+}
+
+.btn__icon {
+    border: none;
+    background: transparent;
+    cursor: pointer;
+}
+
+
+
+/* --------------------- 
+
+        ANIMAÇÕES 
+
+--------------------- */
+
+
+@keyframes flutuacao {
+
+    0%, 100% {
+        transform: translateX(0px);
+    }
+    50% {
+        transform: translateY(60px);
+    }
+
+
+
 }
