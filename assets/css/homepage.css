@@ -108,6 +108,10 @@
 
 
 .banner__ilustration {
+
+    min-width: 400px;
+    height: 100%;
     animation: flutuacao 10s ease-in-out infinite;
 }
 
+/*  SEÇÃO PRODUTOS POPULARES */

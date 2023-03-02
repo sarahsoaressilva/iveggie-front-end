@@ -14,24 +14,7 @@
 }
 
 
-
-@media screen and (max-width: 652px) {
-
-    .banner__container {
-        flex-direction: column;
-    }
-
-    .banner__content {
-        width: 100%;
-        justify-content: center;
-        align-items: center;
-        text-align: center;
-    }
-    
- 
-}
-
-@media screen and (max-width: 820px) {
+@media screen and (max-width: 830px) {
 
     .menu__nav__close {
         position: absolute;
@@ -63,6 +46,17 @@
         margin: 0;
         gap: 0;
         
+    }
+
+    .banner__container {
+        flex-direction: column;
+    }
+
+    .banner__content {
+        width: 100%;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
     
  
